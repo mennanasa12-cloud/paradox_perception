@@ -12,3 +12,21 @@ detection:
     0: rock
   craters:
     0: crater
+
+# Label image colors used by LuSNAR (hex RGB) -> segmentation class ID
+segmentation_colors:
+  0: "#BB469C"   # regolith
+  1: "#7800C8"   # crater
+  2: "#E8FA50"   # rock
+  3: "#AD451F"   # mountain
+  4: "#22C9F8"   # sky
+
+# Class weights computed from the train split (inverse sqrt frequency, mean = 1)
+segmentation_class_weights:
+  0: 0.244   # regolith
+  1: 1.829   # crater
+  2: 1.361   # rock
+  3: 1.158   # mountain
+  4: 0.408   # sky
+
+segmentation_ignore_index: 255

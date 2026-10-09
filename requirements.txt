@@ -8,3 +8,4 @@ scikit-learn
 albumentations
 segmentation-models-pytorch
 ultralytics
+albumentations
