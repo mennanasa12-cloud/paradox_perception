@@ -1,0 +1,10 @@
+numpy
+opencv-python
+pillow
+matplotlib
+pyyaml
+tqdm
+scikit-learn
+albumentations
+segmentation-models-pytorch
+ultralytics
