@@ -1,0 +1,14 @@
+# Segmentation classes (must match docs/perception_design.md)
+segmentation:
+  0: regolith
+  1: crater
+  2: rock
+  3: mountain
+  4: sky
+
+# Detection classes
+detection:
+  rocks:
+    0: rock
+  craters:
+    0: crater
