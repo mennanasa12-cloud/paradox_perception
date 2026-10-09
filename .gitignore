@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# Data and models (too big for GitHub)
+data/raw/
+data/processed/
+*.pt
+*.pth
+*.onnx
+runs/
+
+# ROS 2 build output
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# Editor / OS
+.vscode/
+.DS_Store
