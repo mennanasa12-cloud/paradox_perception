@@ -8,10 +8,8 @@ segmentation:
 
 # Detection classes
 detection:
-  rocks:
-    0: rock
-  craters:
-    0: crater
+   0: crater
+   1: rock
 
 # Label image colors used by LuSNAR (hex RGB) -> segmentation class ID
 segmentation_colors:
