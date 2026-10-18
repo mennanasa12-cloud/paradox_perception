@@ -1,0 +1,9 @@
+perception_node:
+  ros__parameters:
+    repo_root: "~/paradox_perception"
+    seg_weights: "~/paradox_models/segformer_b0/best.pt"
+    det_weights: "~/paradox_models/yolov8s_rocks_clean/weights/best.pt"
+    input_topic: "/camera/image"
+    seg_size: 512
+    det_conf: 0.25
+    device: "cuda"
